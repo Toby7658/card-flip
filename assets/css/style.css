@@ -1,15 +1,25 @@
 body{
+  /* background-image: url(/assets/img/background-sonic.png); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    
+    margin: 150px;
+  
   }
+
+.heading {
+position: absolute;
+top: 5%;
+  }
+
   .wrapper{
     padding: 25px;
     border-radius: 10px;
     background: #F8F8F8;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 20px 30px green;
   }
   .cards, .card, .view{
     display: flex;
@@ -22,6 +32,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
   .cards .card{
     cursor: pointer;
     list-style: none;
@@ -32,6 +43,7 @@ body{
     height: calc(100% / 4 - 10px);
     width: calc(100% / 4 - 10px);
   }
+
   .card.shake{
     animation: shake 0.35s ease-in-out;
   }
