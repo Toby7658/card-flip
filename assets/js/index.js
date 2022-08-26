@@ -1,6 +1,6 @@
 const canvas = document.getElementById("canvas");
 
-/** ARRAY FOR GAMEBOARD LAYOUT */
+/** list of cards to be displayed */
 let cardGame = () => [{
         name: "bunny",
         img: "assets/img/bunny.png"
@@ -67,3 +67,16 @@ let cardGame = () => [{
     },
 ];
 
+/** comment here */
+let randomize = () => {
+    let cardDisplay = cardGame();
+    //randomize the array from animalCards variable: //
+    cardDisplay.sort(() => Math.random() - 0.5);
+    return cardDisplay;
+};
+
+randomize();
+
+/** canvas */
+let gameboard = () => {
+   let cardDisplay = randomize();}

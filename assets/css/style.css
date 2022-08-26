@@ -3,6 +3,7 @@ body {
     background-color: blanchedalmond;
     font-family: "lato, sans-serif";
     font-size: large;
+    border: 10px;
 }
 
 .heading {
