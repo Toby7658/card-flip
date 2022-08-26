@@ -1,0 +1,17 @@
+body {
+    margin: 10px;
+    background-color: blanchedalmond;
+    font-family: "lato, sans-serif";
+    font-size: large;
+}
+
+.heading {
+    text-align: center;
+    top: 20px;
+}
+
+.timer, 
+.score {
+    float: left;
+
+}
